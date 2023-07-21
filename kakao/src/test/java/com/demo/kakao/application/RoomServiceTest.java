@@ -1,12 +1,11 @@
 package com.demo.kakao.application;
 
-import com.demo.kakao.domain.RoomRepository;
-import com.demo.kakao.domain.UserRepository;
+import com.demo.kakao.repository.room.RoomRepository;
+import com.demo.kakao.repository.user.UserRepository;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
-import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
 
 import java.util.Optional;
