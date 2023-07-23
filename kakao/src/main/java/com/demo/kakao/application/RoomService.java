@@ -1,9 +1,9 @@
 package com.demo.kakao.application;
 
 import com.demo.kakao.domain.Room;
-import com.demo.kakao.domain.RoomRepository;
+import com.demo.kakao.repository.room.RoomRepository;
 import com.demo.kakao.domain.User;
-import com.demo.kakao.domain.UserRepository;
+import com.demo.kakao.repository.user.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
